@@ -144,9 +144,6 @@ nav li:hover {
   padding: 20px;
 }
 
-
-
-
 .modo-btn {
   position: fixed;
   top: 100px;
@@ -178,4 +175,3 @@ nav li:hover {
 .oscuro nav {
   background: #070707;
 }
-
