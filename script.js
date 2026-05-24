@@ -37,3 +37,8 @@ function mostrarTodos() {
     card.style.display = "block";
   });
 }
+
+function modoOscuro() {
+  document.body.classList.toggle("oscuro");
+}
+

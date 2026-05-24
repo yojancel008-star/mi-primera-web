@@ -162,18 +162,20 @@ nav li:hover {
 
 
 .oscuro {
-  background: white !important;
+  background: rgb(255, 255, 255) !important;
 }
 
 .oscuro .card {
-  background: #111;
-  color: white;
+  background: #010101;
+  color: rgb(255, 255, 255);
 }
 
+.oscuro h1,
+.oscuro h2,
 .oscuro li {
-  color: white;
+  color: rgb(250, 250, 250);
 }
 
-.oscuro h1 {
-  color: rgb(255, 0, 0);
+.oscuro nav {
+  background: #111;
 }
