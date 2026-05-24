@@ -8,12 +8,15 @@ body {
 .card {
   background: rgb(255, 255, 255);
   max-width: 500px;
+  min-width: 350px;
   margin: auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(222, 218, 218, 0.909);
   text-align: center;
+
 } 
+
 
 .card {
   transition: 0.3s;
@@ -135,3 +138,42 @@ nav li:hover {
   margin-top: 30px;
 }
 
+.contenedor {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.modo-btn {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 1000;
+  background: white;
+  color: black;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.oscuro {
+  background: white !important;
+}
+
+.oscuro .card {
+  background: #111;
+  color: white;
+}
+
+.oscuro li {
+  color: white;
+}
+
+.oscuro h1 {
+  color: rgb(255, 0, 0);
+}
